@@ -8,10 +8,10 @@ public interface MemberService {
 
 	String greet(int i);
 	
-	//Shift+Ctrl+O ‚ÅƒCƒ“ƒ|[ƒg‚·‚é“à—e‚ğ‘I‘ğB–‘O‚Éì¬‚µ‚½Entity‚ğ‘I‚Ô
+	//Shift+Ctrl+O ã§ã‚¤ãƒ³ãƒãƒ¼ãƒˆã™ã‚‹å†…å®¹ã‚’é¸æŠã€‚äº‹å‰ã«ä½œæˆã—ãŸEntityã‚’é¸ã¶ã€€
 	ArrayList<Member> getAll();
 	
-	//ƒ~ƒj‰Û‘è—p‡@
+	//ãƒŸãƒ‹èª²é¡Œç”¨â‘ 
 	int sumOf(int x, int y);
 	
 }

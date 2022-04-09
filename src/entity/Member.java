@@ -2,15 +2,15 @@ package entity;
 
 public class Member {
 	
-	//ƒtƒB[ƒ‹ƒh
+	//ãƒ•ã‚£ãƒ¼ãƒ«ãƒ‰
 	private int id;
 	private String name;
 	private String email;
 	
-	//ƒfƒtƒHƒ‹ƒgƒRƒ“ƒXƒgƒ‰ƒNƒ^
+	//ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã€€
 	public Member() {}
 	
-	//ˆø”—L‚èƒRƒ“ƒXƒgƒ‰ƒNƒ^
+	//å¼•æ•°æœ‰ã‚Šã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ 
 	public Member(int id, String name, String email) {
 		super();
 		this.id = id;
@@ -18,7 +18,7 @@ public class Member {
 		this.email = email;
 	}
 
-	//ƒQƒbƒ^[ƒZƒbƒ^[
+	//ã‚²ãƒƒã‚¿ãƒ¼ã‚»ãƒƒã‚¿ãƒ¼
 	public int getId() {
 		return id;
 	}

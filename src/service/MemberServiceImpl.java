@@ -6,7 +6,7 @@ import entity.Member;
 
 public class MemberServiceImpl implements MemberService {
 
-	//ƒI[ƒo[ƒ‰ƒCƒh‚µ‚½ê‡A©“®¶¬‚³‚¹‚é‚ÆƒAƒmƒe[ƒVƒ‡ƒ“‚ª‚Â‚­‚Ì‚ÅA@override‚Í‚Â‚¯‚Ä‚¨‚¢‚½•û‚ª‚¢‚¢B
+	//ã‚ªãƒ¼ãƒãƒ¼ãƒ©ã‚¤ãƒ‰ã—ãŸå ´åˆã€è‡ªå‹•ç”Ÿæˆã•ã›ã‚‹ã¨ã‚¢ãƒãƒ†ãƒ¼ã‚·ãƒ§ãƒ³ãŒã¤ãã®ã§ã€@overrideã¯ã¤ã‘ã¦ãŠã„ãŸæ–¹ãŒã„ã„ã€‚ã€€
 	@Override
 	public String greet(int i) {
 		String[] greetings = {"Good morning","Hello","Good evning"};
@@ -26,19 +26,19 @@ public class MemberServiceImpl implements MemberService {
 	}
 
 
-	//ƒ~ƒj‰Û‘è
-	//ƒƒWƒbƒN•”•ª
+	//ãƒŸãƒ‹èª²é¡Œ
+	//ãƒ­ã‚¸ãƒƒã‚¯éƒ¨åˆ†
 	@Override
 	public int sumOf(int x, int y) {
-		//ƒ[ƒJƒ‹•Ï”int sum =0‚ğ’è‹`
+		//ãƒ­ãƒ¼ã‚«ãƒ«å¤‰æ•°int sum =0ã‚’å®šç¾©
 		int sum = 0;
-		//for•¶‚ğì¬Bint i‚ªx‚Æ“¯‚¶’l‚©‚çn‚Ü‚èAi‚ªyˆÈ‰º‚É‚È‚é‚Ü‚Åforƒƒ\ƒbƒh‚ªƒ‹[ƒvŒp‘±A+1‚¸‚ÂƒCƒ“ƒNƒŠƒƒ“ƒg‚·‚éB
+		//foræ–‡ã‚’ä½œæˆã€‚int iãŒxã¨åŒã˜å€¤ã‹ã‚‰å§‹ã¾ã‚Šã€iãŒyä»¥ä¸‹ã«ãªã‚‹ã¾ã§forãƒ¡ã‚½ãƒƒãƒ‰ãŒãƒ«ãƒ¼ãƒ—ç¶™ç¶šã€+1ãšã¤ã‚¤ãƒ³ã‚¯ãƒªãƒ¡ãƒ³ãƒˆã™ã‚‹ã€‚
 		for(int i = x; i <= y; i++) {
-			//•Ï”sum‚ÉƒCƒ“ƒNƒŠƒƒ“ƒg‚³‚ê‚½Œã‚Ìi‚Ì’l‚ğ’Ç‰Á‚Å‘ã“ü‚µ‚Ä‚¢‚­i‡Zj
+			//å¤‰æ•°sumã«ã‚¤ãƒ³ã‚¯ãƒªãƒ¡ãƒ³ãƒˆã•ã‚ŒãŸå¾Œã®iã®å€¤ã‚’è¿½åŠ ã§ä»£å…¥ã—ã¦ã„ãï¼ˆåˆç®—ï¼‰
 			sum += i;
 			
 		}
-		//ŒvZŒ‹‰Ê‚Ìsum‚ğ‘—‚è•Ô‚µ‚Ä‚ ‚°‚é
+		//è¨ˆç®—çµæœã®sumã‚’å‘¼ã³å‡ºã—å…ƒã«é€ã‚Šè¿”ã—ã¦ã‚ã’ã‚‹
 		return sum;
 		
 	}

@@ -17,9 +17,9 @@ public class Main {
 			System.out.println(mem.getId() + "," + mem.getName() + "," + mem.getEmail());			
 		}
 		
-		//ƒ~ƒj‰Û‘è—p
-		//service.“à(11s–Ú‚ÌƒCƒ“ƒXƒ^ƒ“ƒX)‚ÌsumOf‰¼ˆø”x,y‚Ì’l‚ğ“ü‚êƒƒ\ƒbƒh‚ğÀs‚·‚é‚Æ
-		//ƒƒ\ƒbƒhÀsŒã‚É@return‚Æ‚µ‚Ä •Ï”sum‚ÌŒ‹‰Ê‚ª•Ô‚Á‚Ä‚­‚é‚æB
+		//ãƒŸãƒ‹èª²é¡Œç”¨
+		//service.å†…(11è¡Œç›®ã®ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹)ã®sumOfä»®å¼•æ•°x,yã®å€¤ã‚’å…¥ã‚Œãƒ¡ã‚½ãƒƒãƒ‰ã‚’å®Ÿè¡Œã™ã‚‹ã¨
+		//ãƒ¡ã‚½ãƒƒãƒ‰å®Ÿè¡Œå¾Œã«ã€€returnã¨ã—ã¦ å¤‰æ•°sumã®çµæœãŒè¿”ã£ã¦ãã‚‹ã‚ˆã€‚ã€€
 		System.out.println(service.sumOf(0, 5));
 
 	}
